@@ -1,0 +1,22 @@
+{
+  "name": "dva-plugin-autosync",
+  "version": "0.0.1",
+  "description": "A plugin for dva which can automatically synchronize state",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yansen <418580217@qq.com> <wechat:yansen_zh>",
+  "license": "MIT",
+  "peerDependencies": {
+    "dva": "2.x"
+  },
+  "devDependencies": {},
+  "files": [
+    "lib",
+    "src"
+  ],
+  "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.49"
+  }
+}
