@@ -4,14 +4,24 @@
   "description": "A plugin for dva which can automatically synchronize state",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src --out-dir lib --presets stage-2"
   },
   "author": "Yansen <418580217@qq.com> <wechat:yansen_zh>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zjxpcyc/dva-plugin-autosync"
+  },
+  "keywords": [
+    "dva",
+    "dva-plugin"
+  ],
   "peerDependencies": {
     "dva": "2.x"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-preset-stage-2": "^6.24.1"
+  },
   "files": [
     "lib",
     "src"
