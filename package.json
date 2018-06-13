@@ -4,7 +4,7 @@
   "description": "A plugin for dva which can automatically synchronize state",
   "main": "lib/index.js",
   "scripts": {
-    "build": "babel src --out-dir lib --presets stage-2"
+    "build": "babel src --out-dir lib"
   },
   "author": "Yansen <418580217@qq.com> <wechat:yansen_zh>",
   "license": "MIT",
@@ -20,6 +20,7 @@
     "dva": "2.x"
   },
   "devDependencies": {
+    "babel-preset-env": "^1.7.0",
     "babel-preset-stage-2": "^6.24.1"
   },
   "files": [
